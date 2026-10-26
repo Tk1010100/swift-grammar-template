@@ -22,11 +22,12 @@
 <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-10-26 at 08 12 45" src="https://github.com/user-attachments/assets/8b79a790-56f7-46e8-a42c-97ed2a0cfb18" />
 
 ## 使った文法・技術
-@State
+@State、@Published、@ObservedObject、VStack / HStack / ZStack、ForEach、List、Text / TextField、Button、2次元配列（[[Int]] など）、for-in 文、if-else 文 / switch 文、guard 文、Class（クラス） / Struct（構造体）、Closure（クロージャ）
 
 ## 生成AIの使い方（どの場面で、どう使ったか）
-基盤のヒント、機能に必要な動作確認、変数名、画像の提案
-（例：画面の骨組みは ChatGPT に書いてもらった。削除ボタンが効かなかったので、原因を質問して直した。）
+座標変換の設計で使用。
+４方向のスワイプの処理に関して本来であれば１方向につき1つの処理を書かなければならないところ。どうにかこうにかコードを簡潔的にさせ短くできないかと相談。結果1つのループにすることができた。
+
 
 ## 展示で工夫した点
 
